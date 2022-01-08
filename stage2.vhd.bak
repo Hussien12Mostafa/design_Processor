@@ -1,0 +1,37 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+
+
+ENTITY DecodeToExecute IS
+PORT( 
+CLK : IN std_logic;
+addressFromDecode :in std_logic_vector(15 downto 0);
+aluControl:in std_logic_vector(2 downto 0);
+src1:in std_logic_vector(15 downto 0);
+src2:in std_logic_vector(15 downto 0);
+PC:in std_logic_vector(31 downto 0);
+
+
+addressFromDecodeE :out std_logic_vector(15 downto 0);
+aluControlE:out std_logic_vector(2 downto 0);
+src1E:out std_logic_vector(15 downto 0);
+src2E:out std_logic_vector(15 downto 0);
+PCE:out std_logic_vector(31 downto 0));
+END DecodeToExecute;
+
+ARCHITECTURE a OF DecodeToExecute IS
+BEGIN
+process(CLK)
+begin
+
+if (CLK'event and CLK = '1')then
+addressFromDecodeE<=addressFromDecode;
+PCE<=PC;
+aluControlE<=aluControl;
+src1E<=src1;
+src2E<=src2;
+end if;
+
+end process;
+
+END a;

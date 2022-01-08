@@ -1,0 +1,30 @@
+
+LIBRARY IEEE;
+USE IEEE.STD_LOGIC_1164.ALL;
+USE IEEE.NUMERIC_STD.ALL;
+
+
+ENTITY mem_WB_buff is
+PORT (datain : in STD_LOGIC_VECTOR (15 downto 0);
+      clk, rst : in std_LOGIC;
+      dataout : out STD_LOGIC_VECTOR (15 downto 0));
+
+end ENTITY;
+-- we should read datain FIRST, then check SPsig, if it was a stack operation (SPsig = '1') then return SPret = '1' to enable memory stage to add/sub 2
+-- else do nothing :)
+
+architecture a_mem_WB_buff of mem_WB_buff is
+begin
+process(clk)
+begin
+if(rst = '1') then
+	dataout <= (OTHERS => '0');
+elsif(rising_edge(clk)) then
+	dataout <= datain;
+end if;
+
+end process;
+
+
+
+end a_mem_WB_buff;

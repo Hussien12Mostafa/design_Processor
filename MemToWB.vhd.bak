@@ -1,0 +1,39 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+
+
+ENTITY MEMToWB IS
+PORT( 
+CLK : IN std_logic;
+addressFromDecodeM :in std_logic_vector(15 downto 0);
+
+
+outALUM:in std_logic_vector(15 downto 0);
+MemDataOutM:in std_logic_vector(15 downto 0);
+
+PCM:in std_logic_vector(31 downto 0);
+
+addressFromDecodeW :out std_logic_vector(15 downto 0);
+
+
+outALUW:out std_logic_vector(15 downto 0);
+MemDataOutW:out std_logic_vector(15 downto 0);
+PCW:out std_logic_vector(31 downto 0));
+END MEMToWB;
+
+ARCHITECTURE a OF MEMToWB IS
+BEGIN
+process(CLK)
+begin
+
+if (CLK'event and CLK = '1')then
+addressFromDecodeW<=addressFromDecodeM;
+outALUW<=outALUM;
+PCW<=PCM;
+
+MemDataOutW<=MemDataOutM;
+end if;
+
+end process;
+
+END a;

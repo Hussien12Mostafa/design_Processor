@@ -1,0 +1,148 @@
+{D:/projects CA/projectCA/fetch2.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/projects CA/projectCA/fetch2.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity ramFetch
+-- Compiling architecture sync_ram of ramFetch
+-- Loading package NUMERIC_STD_UNSIGNED
+-- Compiling entity FETCH
+-- Compiling architecture s1 of FETCH
+
+} {} {}} {D:/projects CA/projectCA/decoder.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/projects CA/projectCA/decoder.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity decoder
+-- Compiling architecture a_decoder of decoder
+
+} {} {}} {D:/projects CA/projectCA/register_32bit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/projects CA/projectCA/register_32bit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity my_nDFF
+-- Compiling architecture a_my_nDFF of my_nDFF
+
+} {} {}} {D:/projects CA/projectCA/controlUnit.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/projects CA/projectCA/controlUnit.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity CU
+-- Compiling architecture a of CU
+
+} {} {}} {D:/projects CA/projectCA/DecodeToExecute.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/projects CA/projectCA/DecodeToExecute.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity DecodeToExecute
+-- Compiling architecture a of DecodeToExecute
+
+} {} {}} {D:/projects CA/projectCA/EXEtoMEM.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/projects CA/projectCA/EXEtoMEM.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity EXEtoMEM
+-- Compiling architecture a of EXEtoMEM
+
+} {} {}} {D:/projects CA/projectCA/muxs.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/projects CA/projectCA/muxs.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity alu_muxs
+-- Compiling architecture muxarch of alu_muxs
+
+} {} {}} {D:/projects CA/projectCA/exec.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/projects CA/projectCA/exec.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity simple_alu
+-- Compiling architecture Behavioral of simple_alu
+
+} {} {}} {D:/projects CA/projectCA/intgrate.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/projects CA/projectCA/intgrate.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Loading package MATH_REAL
+-- Compiling entity MAIN
+-- Compiling architecture s1 of MAIN
+
+} {} {}} {D:/projects CA/projectCA/muxForINCpc.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/projects CA/projectCA/muxForINCpc.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity mux
+-- Compiling architecture muxarch of mux
+
+} {} {}} {D:/projects CA/projectCA/triState.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/projects CA/projectCA/triState.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity tri_buff
+-- Compiling architecture dataflow of tri_buff
+
+} {} {}} {D:/projects CA/projectCA/MEM_unit (1).vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/projects CA/projectCA/MEM_unit (1).vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity memUnit
+-- Compiling architecture a_memUnit of memUnit
+
+} {} {}} {D:/projects CA/projectCA/zeroFlagReg.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/projects CA/projectCA/zeroFlagReg.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity zeroFlagReg
+-- Compiling architecture a_my_nDFF of zeroFlagReg
+
+} {} {}} {D:/projects CA/projectCA/all.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/projects CA/projectCA/all.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity finaldesign
+-- Compiling architecture a_finaldesign of finaldesign
+
+} {} {}} {D:/projects CA/projectCA/memory.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/projects CA/projectCA/memory.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Loading package NUMERIC_STD
+-- Compiling entity Ram
+-- Compiling architecture a_ram of Ram
+
+} {} {}} {D:/projects CA/projectCA/FetchToDecode.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/projects CA/projectCA/FetchToDecode.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity FetchToDecode
+-- Compiling architecture a of FetchToDecode
+
+} {} {}} {D:/projects CA/projectCA/MemToWB.vhd} {1 {vcom -work work -2002 -explicit -stats=none {D:/projects CA/projectCA/MemToWB.vhd}
+Model Technology ModelSim - Intel FPGA Edition vcom 10.5b Compiler 2016.10 Oct  5 2016
+-- Loading package STANDARD
+-- Loading package TEXTIO
+-- Loading package std_logic_1164
+-- Compiling entity MEMToWBWB
+-- Compiling architecture a of MEMToWBWB
+
+} {} {}}

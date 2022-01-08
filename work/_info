@@ -1,0 +1,871 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dD:/projects CA
+Ealu_muxs
+Z0 w1641674404
+Z1 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
+Z2 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z3 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
+Z4 dD:/projects CA/projectCA
+Z5 8D:/projects CA/projectCA/muxs.vhd
+Z6 FD:/projects CA/projectCA/muxs.vhd
+l0
+L5
+V2C18BEz709;X:kEAAG2ni1
+!s100 Nc820h4J@8^^F<aoAZi@81
+Z7 OV;C;10.5b;63
+32
+Z8 !s110 1641676196
+!i10b 1
+Z9 !s108 1641676196.000000
+Z10 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/projects CA/projectCA/muxs.vhd|
+Z11 !s107 D:/projects CA/projectCA/muxs.vhd|
+!i113 1
+Z12 o-work work -2002 -explicit
+Z13 tExplicit 1 CvgOpt 0
+Amuxarch
+R1
+R2
+R3
+DEx4 work 8 alu_muxs 0 22 2C18BEz709;X:kEAAG2ni1
+l15
+L12
+Vo[DIJofbFG6WoR91;1VKz1
+!s100 UIa^3:XgK2P8fQhGGLjdc2
+R7
+32
+R8
+!i10b 1
+R9
+R10
+R11
+!i113 1
+R12
+R13
+Ecu
+Z14 w1641679813
+R2
+R3
+R4
+Z15 8D:/projects CA/projectCA/controlUnit.vhd
+Z16 FD:/projects CA/projectCA/controlUnit.vhd
+l0
+L5
+VM5e?kcz83H2<lg[6mk<_]3
+!s100 VK[lm6PM5L=>hf4UhjU[X1
+R7
+32
+Z17 !s110 1641679816
+!i10b 1
+Z18 !s108 1641679816.000000
+Z19 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/projects CA/projectCA/controlUnit.vhd|
+Z20 !s107 D:/projects CA/projectCA/controlUnit.vhd|
+!i113 1
+R12
+R13
+Aa
+R2
+R3
+DEx4 work 2 cu 0 22 M5e?kcz83H2<lg[6mk<_]3
+l17
+L16
+VS@F9;;0PLoQzejn9aYAh12
+!s100 ULXIGl8iEjNNGM?F5^P2z2
+R7
+32
+R17
+!i10b 1
+R18
+R19
+R20
+!i113 1
+R12
+R13
+Edecoder
+Z21 w1641480296
+R2
+R3
+R4
+Z22 8D:/projects CA/projectCA/decoder.vhd
+Z23 FD:/projects CA/projectCA/decoder.vhd
+l0
+L5
+VjAj_JG:eMm4BL@]PPM2WA1
+!s100 nCnC8j]9RhUV<hLVgJX^E1
+R7
+32
+Z24 !s110 1641676195
+!i10b 1
+Z25 !s108 1641676195.000000
+Z26 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/projects CA/projectCA/decoder.vhd|
+Z27 !s107 D:/projects CA/projectCA/decoder.vhd|
+!i113 1
+R12
+R13
+Aa_decoder
+R2
+R3
+DEx4 work 7 decoder 0 22 jAj_JG:eMm4BL@]PPM2WA1
+l13
+L12
+VRDSkhe?J`dQiXN=A_0>PN2
+!s100 H;:DT2cGS=@o2?D<>d[>z1
+R7
+32
+R24
+!i10b 1
+R25
+R26
+R27
+!i113 1
+R12
+R13
+Edecodetoexecute
+Z28 w1641661614
+R2
+R3
+R4
+Z29 8D:/projects CA/projectCA/DecodeToExecute.vhd
+Z30 FD:/projects CA/projectCA/DecodeToExecute.vhd
+l0
+L5
+VB]P<MRm4``Gg8V3Akb?ao3
+!s100 >zZVSU9U<NVLe=A^URGzb3
+R7
+32
+R8
+!i10b 1
+R9
+Z31 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/projects CA/projectCA/DecodeToExecute.vhd|
+Z32 !s107 D:/projects CA/projectCA/DecodeToExecute.vhd|
+!i113 1
+R12
+R13
+Aa
+R2
+R3
+DEx4 work 15 decodetoexecute 0 22 B]P<MRm4``Gg8V3Akb?ao3
+l34
+L33
+V3JbIH<h_886n4d1gB4e:l1
+!s100 4^^BCRBk<hBb_0oS3]0Gg3
+R7
+32
+R8
+!i10b 1
+R9
+R31
+R32
+!i113 1
+R12
+R13
+Eexetomem
+Z33 w1641661821
+R2
+R3
+R4
+Z34 8D:/projects CA/projectCA/EXEtoMEM.vhd
+Z35 FD:/projects CA/projectCA/EXEtoMEM.vhd
+l0
+L5
+V1188aB1jlGBHh23VQMN`l0
+!s100 Q`?XiJ0Ef5eJiUl]4M4@X3
+R7
+32
+R8
+!i10b 1
+R9
+Z36 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/projects CA/projectCA/EXEtoMEM.vhd|
+Z37 !s107 D:/projects CA/projectCA/EXEtoMEM.vhd|
+!i113 1
+R12
+R13
+Aa
+R2
+R3
+DEx4 work 8 exetomem 0 22 1188aB1jlGBHh23VQMN`l0
+l28
+L27
+V=n?;l03ohaMVRZ<dG>Vc_0
+!s100 5_9hCkH7Q^c6ilOl=_SQP1
+R7
+32
+R8
+!i10b 1
+R9
+R36
+R37
+!i113 1
+R12
+R13
+Efetch
+Z38 w1641676208
+Z39 DPx4 ieee 20 numeric_std_unsigned 0 22 jF^[l6kSe0l<k3W[UC=P83
+R2
+R3
+R4
+Z40 8D:/projects CA/projectCA/fetch2.vhd
+Z41 FD:/projects CA/projectCA/fetch2.vhd
+l0
+L62
+V2[DEVWVjN?K1eAWM22aW]2
+!s100 5;jJgBCjC[61RM<YW7kaV2
+R7
+32
+Z42 !s110 1641676211
+!i10b 1
+Z43 !s108 1641676211.000000
+Z44 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/projects CA/projectCA/fetch2.vhd|
+Z45 !s107 D:/projects CA/projectCA/fetch2.vhd|
+!i113 1
+R12
+R13
+As1
+R39
+R2
+R3
+DEx4 work 5 fetch 0 22 2[DEVWVjN?K1eAWM22aW]2
+l82
+L69
+V6zCg_Rj?C@T>1L?D<H9Y21
+!s100 n^RNV?c?<<bTljb9ISchd0
+R7
+32
+R42
+!i10b 1
+R43
+R44
+R45
+!i113 1
+R12
+R13
+Efetchtodecode
+Z46 w1641680795
+R2
+R3
+R4
+Z47 8D:/projects CA/projectCA/FetchToDecode.vhd
+Z48 FD:/projects CA/projectCA/FetchToDecode.vhd
+l0
+L5
+VVjdR2iGXCKbPT2:[^;b9i0
+!s100 7UCCYY?o3geLV=N3O=gWM3
+R7
+32
+Z49 !s110 1641681202
+!i10b 1
+Z50 !s108 1641681202.000000
+Z51 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/projects CA/projectCA/FetchToDecode.vhd|
+Z52 !s107 D:/projects CA/projectCA/FetchToDecode.vhd|
+!i113 1
+R12
+R13
+Aa
+R2
+R3
+DEx4 work 13 fetchtodecode 0 22 VjdR2iGXCKbPT2:[^;b9i0
+l30
+L29
+V0Y6WFCj:[A`<5k^^SJUW]2
+!s100 FWl0Ph8Fj4BQ]W;jY6[KL2
+R7
+32
+R49
+!i10b 1
+R50
+R51
+R52
+!i113 1
+R12
+R13
+Efinaldesign
+Z53 w1641680078
+R2
+R3
+R4
+Z54 8D:/projects CA/projectCA/all.vhd
+Z55 FD:/projects CA/projectCA/all.vhd
+l0
+L5
+VcjR79]d<Z2Z7z51]S?=1K0
+!s100 e6GH]=UIYR<8eQA_0@Naa1
+R7
+32
+Z56 !s110 1641680188
+!i10b 1
+Z57 !s108 1641680188.000000
+Z58 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/projects CA/projectCA/all.vhd|
+Z59 !s107 D:/projects CA/projectCA/all.vhd|
+!i113 1
+R12
+R13
+Aa_finaldesign
+R2
+R3
+DEx4 work 11 finaldesign 0 22 cjR79]d<Z2Z7z51]S?=1K0
+l52
+L16
+V][1ng>CEkl>R3z9R5dAd>1
+!s100 =AFkE=[>IL27_ML206k?C0
+R7
+32
+R56
+!i10b 1
+R57
+R58
+R59
+!i113 1
+R12
+R13
+Emain
+Z60 w1641681908
+Z61 DPx4 ieee 9 math_real 0 22 Sk6CSihbPL<f[^Shm]=KX0
+R1
+R2
+R3
+R4
+Z62 8D:/projects CA/projectCA/intgrate.vhd
+Z63 FD:/projects CA/projectCA/intgrate.vhd
+l0
+L6
+V7eS=_]Z49KC3b9`QNY6ch0
+!s100 e4QNbS=N[lMLXN1gMQk4J0
+R7
+32
+Z64 !s110 1641681912
+!i10b 1
+Z65 !s108 1641681912.000000
+Z66 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/projects CA/projectCA/intgrate.vhd|
+Z67 !s107 D:/projects CA/projectCA/intgrate.vhd|
+!i113 1
+R12
+R13
+As1
+R61
+R1
+R2
+R3
+Z68 DEx4 work 4 main 0 22 7eS=_]Z49KC3b9`QNY6ch0
+l201
+L12
+V32?YmQo6<bnM6J2@i`=<o1
+!s100 ]jYLb6D;JbfHe?zkY1X@Z3
+R7
+32
+R64
+!i10b 1
+R65
+R66
+R67
+!i113 1
+R12
+R13
+Emem_wb_buff
+Z69 w1641656680
+R1
+R2
+R3
+R4
+Z70 8D:/projects CA/projectCA/mem_WB_buffer.vhd
+Z71 FD:/projects CA/projectCA/mem_WB_buffer.vhd
+l0
+L7
+VDJ@3JzMmJzjKAh]AgEN_b1
+!s100 KCkFH6<XTLHL_[6I2AJf[3
+R7
+32
+Z72 !s110 1641656707
+!i10b 1
+Z73 !s108 1641656707.000000
+Z74 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/projects CA/projectCA/mem_WB_buffer.vhd|
+Z75 !s107 D:/projects CA/projectCA/mem_WB_buffer.vhd|
+!i113 1
+R12
+R13
+Aa_mem_wb_buff
+R1
+R2
+R3
+DEx4 work 11 mem_wb_buff 0 22 DJ@3JzMmJzjKAh]AgEN_b1
+l17
+L16
+VF[?PdjcOkM@]7N<gO`AFo0
+!s100 Fff[>_[HOMKVzU=?A[e[i0
+R7
+32
+R72
+!i10b 1
+R73
+R74
+R75
+!i113 1
+R12
+R13
+Ememtowb
+Z76 w1641660283
+R2
+R3
+R4
+Z77 8D:/projects CA/projectCA/MemToWB.vhd
+Z78 FD:/projects CA/projectCA/MemToWB.vhd
+l0
+L5
+V`UgWQmCNiOS0iRz59X41z2
+!s100 X:og^PQ<:o<6J]7NJA]?i2
+R7
+32
+Z79 !s110 1641660288
+!i10b 1
+Z80 !s108 1641660288.000000
+Z81 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/projects CA/projectCA/MemToWB.vhd|
+Z82 !s107 D:/projects CA/projectCA/MemToWB.vhd|
+!i113 1
+R12
+R13
+Aa
+R2
+R3
+DEx4 work 7 memtowb 0 22 `UgWQmCNiOS0iRz59X41z2
+l25
+L24
+V3>S:>=ej?LeKjgbEK;g?73
+!s100 e`J9HI1YL8lTfAR]3>6hS3
+R7
+32
+R79
+!i10b 1
+R80
+R81
+R82
+!i113 1
+R12
+R13
+Ememtowbwb
+Z83 w1641663062
+R2
+R3
+R4
+R77
+R78
+l0
+L5
+V<C7T]g?CXSf@>E9nDIl8:2
+!s100 ZK`z_>JLRTRAcPRaz^5nR0
+R7
+32
+Z84 !s110 1641676197
+!i10b 1
+Z85 !s108 1641676197.000000
+R81
+R82
+!i113 1
+R12
+R13
+Aa
+R2
+R3
+DEx4 work 9 memtowbwb 0 22 <C7T]g?CXSf@>E9nDIl8:2
+l26
+L25
+VRRL^b`D6@df?IE`0RkBYH3
+!s100 <XAkoO`FPmFF[c90WEcd>1
+R7
+32
+R84
+!i10b 1
+R85
+R81
+R82
+!i113 1
+R12
+R13
+Ememunit
+Z86 w1641658806
+R1
+R2
+R3
+R4
+Z87 8D:/projects CA/projectCA/MEM_unit (1).vhd
+Z88 FD:/projects CA/projectCA/MEM_unit (1).vhd
+l0
+L5
+VVD]>6iHXdo4kzOGe`YCDY2
+!s100 ooDDlSL]bid6mPlNORDl]1
+R7
+32
+R84
+!i10b 1
+R85
+Z89 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/projects CA/projectCA/MEM_unit (1).vhd|
+Z90 !s107 D:/projects CA/projectCA/MEM_unit (1).vhd|
+!i113 1
+R12
+R13
+Aa_memunit
+R1
+R2
+R3
+DEx4 work 7 memunit 0 22 VD]>6iHXdo4kzOGe`YCDY2
+l34
+L18
+Vf2kD<0[ZSGS8[V??fPQ8@1
+!s100 :CghMdlda_Lde0M75<_;b2
+R7
+32
+R84
+!i10b 1
+R85
+R89
+R90
+!i113 1
+R12
+R13
+Emux
+Z91 w1641575735
+R1
+R2
+R3
+R4
+Z92 8D:/projects CA/projectCA/muxForINCpc.vhd
+Z93 FD:/projects CA/projectCA/muxForINCpc.vhd
+l0
+L5
+Vi_WQHZ:mBVLh`C@N`@YSc0
+!s100 jKJOW>T^;`?B]9Q1IS`cY0
+R7
+32
+R8
+!i10b 1
+R9
+Z94 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/projects CA/projectCA/muxForINCpc.vhd|
+Z95 !s107 D:/projects CA/projectCA/muxForINCpc.vhd|
+!i113 1
+R12
+R13
+Amuxarch
+R1
+R2
+R3
+DEx4 work 3 mux 0 22 i_WQHZ:mBVLh`C@N`@YSc0
+l15
+L12
+VPNT9a<VONfneZ@MAN;cKj2
+!s100 2e=@HIVYeoDk:IY93n@OD0
+R7
+32
+R8
+!i10b 1
+R9
+R94
+R95
+!i113 1
+R12
+R13
+Emy_main
+Z96 w1641469597
+R2
+R3
+R4
+Z97 8D:/projects CA/projectCA/Fetch.vhd
+Z98 FD:/projects CA/projectCA/Fetch.vhd
+l0
+L70
+V`g]PlW;n;[d<RojUTHKW83
+!s100 E]8H6Mi>94GLRe4]J5W=[0
+R7
+32
+Z99 !s110 1641469600
+!i10b 1
+Z100 !s108 1641469600.000000
+Z101 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/projects CA/projectCA/Fetch.vhd|
+Z102 !s107 D:/projects CA/projectCA/Fetch.vhd|
+!i113 1
+R12
+R13
+Aa_my_main
+R2
+R3
+DEx4 work 7 my_main 0 22 `g]PlW;n;[d<RojUTHKW83
+l87
+L78
+V1NS43Uh3W[REn>UBc2SQ61
+!s100 iU5Z6h_7_<h@LM40nbc=91
+R7
+32
+R99
+!i10b 1
+R100
+R101
+R102
+!i113 1
+R12
+R13
+Emy_ndff
+Z103 w1641675043
+R2
+R3
+R4
+Z104 8D:/projects CA/projectCA/register_32bit.vhd
+Z105 FD:/projects CA/projectCA/register_32bit.vhd
+l0
+L4
+Ve=o0<Pf::JnS0Ej^ckYn@1
+!s100 J[<?J=`4mQnz;0ORTW=NW0
+R7
+32
+R24
+!i10b 1
+R25
+Z106 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/projects CA/projectCA/register_32bit.vhd|
+Z107 !s107 D:/projects CA/projectCA/register_32bit.vhd|
+!i113 1
+R12
+R13
+Aa_my_ndff
+R2
+R3
+DEx4 work 7 my_ndff 0 22 e=o0<Pf::JnS0Ej^ckYn@1
+l12
+L11
+VcTV2dXQzY[jU3>E[]ahA]1
+!s100 Oc1LdFnUFYR:>3VVCWYWz3
+R7
+32
+R24
+!i10b 1
+R25
+R106
+R107
+!i113 1
+R12
+R13
+Eram
+Z108 w1641658488
+R1
+R2
+R3
+R4
+Z109 8D:/projects CA/projectCA/memory.vhd
+Z110 FD:/projects CA/projectCA/memory.vhd
+l0
+L6
+VHQkXI<aZb4VEaJmjK>UHc1
+!s100 kZ_V]<O^a45z:hG@eD9Ff1
+R7
+32
+R84
+!i10b 1
+R9
+Z111 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/projects CA/projectCA/memory.vhd|
+Z112 !s107 D:/projects CA/projectCA/memory.vhd|
+!i113 1
+R12
+R13
+Aa_ram
+R1
+R2
+R3
+DEx4 work 3 ram 0 22 HQkXI<aZb4VEaJmjK>UHc1
+l18
+L15
+VB^_l[c^OH0fGbcL;0RK3;0
+!s100 U@`ELOiAQoo`aTkX?k;nW3
+R7
+32
+R84
+!i10b 1
+R9
+R111
+R112
+!i113 1
+R12
+R13
+Async_ram_a
+R1
+R2
+R3
+DEx4 work 3 ram 0 22 dXWQn2HfAl:4>Kg>OD??W0
+l20
+L17
+VIF0UDVbQfX_3m<89C7O]Q0
+!s100 DlhkVbNNSYLLC26`8i[Qe1
+R7
+32
+!s110 1641649698
+!i10b 1
+!s108 1641649698.000000
+R44
+R45
+!i113 1
+R12
+R13
+R41
+w1641636285
+R40
+Eramfetch
+R38
+R1
+R2
+R3
+R4
+R40
+R41
+l0
+L6
+VcOl[34Hz@>]1kS:f`DS1j3
+!s100 S5NDMRC:U@O<=kh`>R`7j0
+R7
+32
+R42
+!i10b 1
+R43
+R44
+R45
+!i113 1
+R12
+R13
+Async_ram
+R1
+R2
+R3
+DEx4 work 8 ramfetch 0 22 cOl[34Hz@>]1kS:f`DS1j3
+l20
+L17
+V1?FJ]Ff6L240CM0S]4Q5N2
+!s100 ?@R0z2NmgiHPA>Zz6n0Jc2
+R7
+32
+R42
+!i10b 1
+R43
+R44
+R45
+!i113 1
+R12
+R13
+Esimple_alu
+Z113 w1641582463
+R1
+R2
+R3
+R4
+Z114 8D:/projects CA/projectCA/exec.vhd
+Z115 FD:/projects CA/projectCA/exec.vhd
+l0
+L5
+VC=hGn;C5:K=2f9A_Zbd2H0
+!s100 zZn2LGRFP>IR^gfT9nB]53
+R7
+32
+R8
+!i10b 1
+R9
+Z116 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/projects CA/projectCA/exec.vhd|
+Z117 !s107 D:/projects CA/projectCA/exec.vhd|
+!i113 1
+R12
+R13
+Abehavioral
+R1
+R2
+R3
+DEx4 work 10 simple_alu 0 22 C=hGn;C5:K=2f9A_Zbd2H0
+l19
+L14
+VD[[CYn;Q7`6lP>Nn4=o@Q1
+!s100 3PU7Em[UN^W;CU35Y:?TD1
+R7
+32
+R8
+!i10b 1
+R9
+R116
+R117
+!i113 1
+R12
+R13
+Etri_buff
+Z118 w1641480298
+R2
+R3
+R4
+Z119 8D:/projects CA/projectCA/triState.vhd
+Z120 FD:/projects CA/projectCA/triState.vhd
+l0
+L4
+V4jU3>NlDml]9k_fec_3E51
+!s100 3c:XR_>Q1eDhPkO7Hk:]l0
+R7
+32
+R24
+!i10b 1
+R25
+Z121 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/projects CA/projectCA/triState.vhd|
+Z122 !s107 D:/projects CA/projectCA/triState.vhd|
+!i113 1
+R12
+R13
+Adataflow
+R2
+R3
+DEx4 work 8 tri_buff 0 22 4jU3>NlDml]9k_fec_3E51
+l19
+L15
+VeYDA?QK=RR@G=@QNC7C^g2
+!s100 `50OgeVWOKbQUO=lA?TB61
+R7
+32
+R24
+!i10b 1
+R25
+R121
+R122
+!i113 1
+R12
+R13
+Ezeroflagreg
+Z123 w1641583090
+R2
+R3
+R4
+Z124 8D:/projects CA/projectCA/zeroFlagReg.vhd
+Z125 FD:/projects CA/projectCA/zeroFlagReg.vhd
+l0
+L4
+VHND6XckH_GO]`0mP:;<ak1
+!s100 QBhd>f>03iGWRYifINb]c2
+R7
+32
+R8
+!i10b 1
+R9
+Z126 !s90 -reportprogress|300|-work|work|-2002|-explicit|-stats=none|D:/projects CA/projectCA/zeroFlagReg.vhd|
+Z127 !s107 D:/projects CA/projectCA/zeroFlagReg.vhd|
+!i113 1
+R12
+R13
+Aa_my_ndff
+R2
+R3
+DEx4 work 11 zeroflagreg 0 22 HND6XckH_GO]`0mP:;<ak1
+l11
+L10
+V>oig`m?@BF4zz4=o34Gin0
+!s100 :K0_<T8Mh@3aE[YnAWIea0
+R7
+32
+R8
+!i10b 1
+R9
+R126
+R127
+!i113 1
+R12
+R13

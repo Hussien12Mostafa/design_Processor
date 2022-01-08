@@ -1,0 +1,66 @@
+do do.do
+# vsim -gui work.main 
+# Start time: 00:46:31 on Jan 09,2022
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.numeric_std(body)
+# Loading ieee.math_real(body)
+# Loading work.main(s1)
+# Loading work.mux(muxarch)
+# Loading ieee.numeric_std_unsigned(body)
+# Loading work.fetch(s1)
+# Loading work.ramfetch(sync_ram)
+# Loading work.cu(a)
+# Loading work.fetchtodecode(a)
+# Loading work.finaldesign(a_finaldesign)
+# Loading work.decoder(a_decoder)
+# Loading work.my_ndff(a_my_ndff)
+# Loading work.tri_buff(dataflow)
+# Loading work.decodetoexecute(a)
+# Loading work.alu_muxs(muxarch)
+# Loading work.simple_alu(behavioral)
+# Loading work.zeroflagreg(a_my_ndff)
+# Loading work.exetomem(a)
+# Loading work.memunit(a_memunit)
+# Loading work.ram(a_ram)
+# Loading work.memtowbwb(a)
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+#           File in use by: hussien  Hostname: DESKTOP-HJTE5H7  ProcessID: 7808
+#           Attempting to use alternate WLF file "./wlftihfgeq".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+#           Using alternate file: ./wlftihfgeq
+mem load -filltype value -filldata {0200000000011000 } -fillradix symbolic /main/stageFetch/stageMem1/ram(0)
+# (vsim-3654) Value '0200000000011000' is not legal for this signal.
+mem load -filltype value -filldata {0100000000011000 } -fillradix symbolic /main/stageFetch/stageMem1/ram(0)
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 0  Instance: /main/stageAlu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 1  Instance: /main/stageAlu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 2  Instance: /main/stageAlu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 0 ps  Iteration: 4  Instance: /main/stageAlu
+force -freeze sim:/main/RES 0 0
+force -freeze sim:/main/stageDecode/q8 0000000000000011 0
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 200 ps  Iteration: 1  Instance: /main/stageAlu
+run
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 400 ps  Iteration: 1  Instance: /main/stageAlu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 400 ps  Iteration: 2  Instance: /main/stageAlu
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 400 ps  Iteration: 5  Instance: /main/stageAlu
+run
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 600 ps  Iteration: 2  Instance: /main/stageAlu
+run
+# ** Warning: NUMERIC_STD."=": metavalue detected, returning FALSE
+#    Time: 700 ps  Iteration: 5  Instance: /main/stageAlu
+# End time: 00:47:55 on Jan 09,2022, Elapsed time: 0:01:24
+# Errors: 1, Warnings: 12

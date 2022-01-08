@@ -1,0 +1,28 @@
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+
+
+ENTITY FetchToDecode IS
+PORT( 
+CLK : IN std_logic;
+addressFromFetch :in std_logic_vector(15 downto 0);
+PC:in std_logic_vector(31 downto 0);
+
+
+addressFromFetchD :out std_logic_vector(15 downto 0);
+PCD:out std_logic_vector(31 downto 0));
+END FetchToDecode;
+
+ARCHITECTURE a OF FetchToDecode IS
+BEGIN
+process(CLK)
+begin
+
+if (CLK'event and CLK = '1')then
+addressFromFetchD<=addressFromFetch;
+PCD<=PC;
+end if;
+
+end process;
+
+END a;
